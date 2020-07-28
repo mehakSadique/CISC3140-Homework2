@@ -1,0 +1,61 @@
+cLast login: Tue Jul 28 12:06:05 on ttys001
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Mehaks-Air:~ mehaksadique$ cd Desktop
+Mehaks-Air:Desktop mehaksadique$ cd CISC3140-Homework2/
+Mehaks-Air:CISC3140-Homework2 mehaksadique$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+Mehaks-Air:CISC3140-Homework2 mehaksadique$ git add .
+Mehaks-Air:CISC3140-Homework2 mehaksadique$ git commit -m "lkl"
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+nothing to commit, working tree clean
+Mehaks-Air:CISC3140-Homework2 mehaksadique$ git push
+To https://github.com/mehakSadique/CISC3140-Homework2.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/mehakSadique/CISC3140-Homework2.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Mehaks-Air:CISC3140-Homework2 mehaksadique$ git commit -m "lkl"
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+nothing to commit, working tree clean
+Mehaks-Air:CISC3140-Homework2 mehaksadique$ git push -f
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 606 bytes | 606.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/mehakSadique/CISC3140-Homework2.git
+ + 0ca3b5a...2ffbaf7 master -> master (forced update)
+Mehaks-Air:CISC3140-Homework2 mehaksadique$ git add . 
+Mehaks-Air:CISC3140-Homework2 mehaksadique$ git commit -m "task 3"
+[master ba4407f] task 3
+ 2 files changed, 171 insertions(+)
+ create mode 100644 movies.txt
+Mehaks-Air:CISC3140-Homework2 mehaksadique$ git push -f
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 3.32 KiB | 3.32 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/mehakSadique/CISC3140-Homework2.git
+   2ffbaf7..ba4407f  master -> master
+Mehaks-Air:CISC3140-Homework2 mehaksadique$ 
