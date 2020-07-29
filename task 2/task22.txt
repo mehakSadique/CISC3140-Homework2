@@ -1,0 +1,87 @@
+Last login: Tue Jul 28 20:30:03 on ttys001
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Mehaks-Air:~ mehaksadique$ cd Desktop
+Mehaks-Air:Desktop mehaksadique$ cd CISC3140-Homework2/
+Mehaks-Air:CISC3140-Homework2 mehaksadique$ git init
+Reinitialized existing Git repository in /Users/mehaksadique/Desktop/CISC3140-Homework2/.git/
+Mehaks-Air:CISC3140-Homework2 mehaksadique$ vi file1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mehaks-Air:CISC3140-Homework2 mehaksadique$ git log
+commit a170da9bbf1df40cb7852129fddf60806fd9429a (HEAD -> master, origin/master)
+Author: Mehak Sadique <mksd1999@gmail.com>
+Date:   Tue Jul 28 18:01:37 2020 -0400
+
+    .
+
+commit e48432f6f5b0b2bcacf1280abb0e133133aed7ff
+Author: Mehak Sadique <mksd1999@gmail.com>
+Date:   Tue Jul 28 13:50:49 2020 -0400
+
+    commands used
+
+commit ba4407ffb94bbaa34d1464d492ff5b9977140b2a
+Author: Mehak Sadique <mksd1999@gmail.com>
+Date:   Tue Jul 28 13:47:59 2020 -0400
+
+    task 3
+
+commit 2ffbaf7b8b187ac44bc85b366870ed8ded0ed033
+Author: Mehak Sadique <mksd1999@gmail.com>
+Date:   Tue Jul 28 13:32:55 2020 -0400
+
+    adding more info
+
+commit d02945381d0609dd834f5fd3abfcb6f1d0d70e16
+Author: Mehak Sadique <mksd1999@gmail.com>
+Date:   Mon Jul 27 18:19:11 2020 -0400
+
+    hello
+
+commit bcac7a435a198d421292be5853c8386c8965758c
+Author: Mehak Sadique <mksd1999@gmail.com>
+Date:   Mon Jul 27 18:17:34 2020 -0400
+
+    task 2
+Mehaks-Air:CISC3140-Homework2 mehaksadique$ c
