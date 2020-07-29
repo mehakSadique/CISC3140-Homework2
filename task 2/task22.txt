@@ -84,4 +84,176 @@ Author: Mehak Sadique <mksd1999@gmail.com>
 Date:   Mon Jul 27 18:17:34 2020 -0400
 
     task 2
-Mehaks-Air:CISC3140-Homework2 mehaksadique$ c
+Mehaks-Air:CISC3140-Homework2 mehaksadique$ 
+
+//
+Last login: Tue Jul 28 20:33:16 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Mehaks-Air:~ mehaksadique$ cd Desktop
+Mehaks-Air:Desktop mehaksadique$ cd CISC3140-Homework2/
+Mehaks-Air:CISC3140-Homework2 mehaksadique$ git add .
+error: 'gitDir/' does not have a commit checked out
+fatal: adding files failed
+Mehaks-Air:CISC3140-Homework2 mehaksadique$ cd gitDir
+Mehaks-Air:gitDir mehaksadique$ git commit -m "checked out"
+On branch master
+
+Initial commit
+
+Untracked files:
+	.file1.swp
+
+nothing added to commit but untracked files present
+Mehaks-Air:gitDir mehaksadique$ git add .
+Mehaks-Air:gitDir mehaksadique$ git commit -m "."
+[master (root-commit) f2a5573] .
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 .file1.swp
+Mehaks-Air:gitDir mehaksadique$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+Mehaks-Air:gitDir mehaksadique$ git push -f
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+Mehaks-Air:gitDir mehaksadique$ git push CISC3140-Homework2
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream CISC3140-Homework2 master
+
+Mehaks-Air:gitDir mehaksadique$  git push --set-upstream CISC3140-Homework2 master
+fatal: 'CISC3140-Homework2' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Mehaks-Air:gitDir mehaksadique$  git push --set-upstream master
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream master master
+
+Mehaks-Air:gitDir mehaksadique$  git push --set-upstream master master
+fatal: 'master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Mehaks-Air:gitDir mehaksadique$ git branch something 
+Mehaks-Air:gitDir mehaksadique$ git checkout something
+Switched to branch 'something'
+Mehaks-Air:gitDir mehaksadique$ git add .
+Mehaks-Air:gitDir mehaksadique$ git commit -m "."
+On branch something
+nothing to commit, working tree clean
+Mehaks-Air:gitDir mehaksadique$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+Mehaks-Air:gitDir mehaksadique$ git push https://github.com/mehakSadique/CISC3140-Homework2.git
+fatal: The current branch something has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream https://github.com/mehakSadique/CISC3140-Homework2.git something
+
+Mehaks-Air:gitDir mehaksadique$ git push --set-upstream https://github.com/mehakSadique/CISC3140-Homework2.git
+fatal: The current branch something has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream https://github.com/mehakSadique/CISC3140-Homework2.git something
+
+Mehaks-Air:gitDir mehaksadique$  git push --set-upstream https://github.com/mehakSadique/CISC3140-Homework2.git something
+
+
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 456 bytes | 456.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'something' on GitHub by visiting:
+remote:      https://github.com/mehakSadique/CISC3140-Homework2/pull/new/something
+remote: 
+To https://github.com/mehakSadique/CISC3140-Homework2.git
+ * [new branch]      something -> something
+Branch 'something' set up to track remote branch 'something' from 'https://github.com/mehakSadique/CISC3140-Homework2.git'.
+Mehaks-Air:gitDir mehaksadique$ 
+Mehaks-Air:gitDir mehaksadique$ 
+Mehaks-Air:gitDir mehaksadique$ cd ..
+Mehaks-Air:CISC3140-Homework2 mehaksadique$ git checkout master
+M	.DS_Store
+D	untitled folder/.DS_Store
+D	untitled folder/hello.txt
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+Mehaks-Air:CISC3140-Homework2 mehaksadique$ git add .
+warning: adding embedded git repository: gitDir
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> gitDir
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached gitDir
+hint: 
+hint: See "git help submodule" for more information.
+Mehaks-Air:CISC3140-Homework2 mehaksadique$ git add .
+Mehaks-Air:CISC3140-Homework2 mehaksadique$ git commit -m "..'
+> 
+Mehaks-Air:CISC3140-Homework2 mehaksadique$ git add .
+Mehaks-Air:CISC3140-Homework2 mehaksadique$ git commit -m ".."
+[master fd5ea19] ..
+ 6 files changed, 159 insertions(+)
+ create mode 160000 gitDir
+ create mode 100644 task 1/Untitled.txt
+ rename {untitled folder => task 1}/hello.txt (100%)
+ rename {untitled folder => task 2}/.DS_Store (85%)
+ create mode 100644 task 2/task22.txt
+Mehaks-Air:CISC3140-Homework2 mehaksadique$ git push
+To https://github.com/mehakSadique/CISC3140-Homework2.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/mehakSadique/CISC3140-Homework2.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Mehaks-Air:CISC3140-Homework2 mehaksadique$ git push -f
+Enumerating objects: 36, done.
+Counting objects: 100% (36/36), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (31/31), done.
+Writing objects: 100% (36/36), 11.81 KiB | 1.69 MiB/s, done.
+Total 36 (delta 8), reused 0 (delta 0)
+remote: Resolving deltas: 100% (8/8), done.
+To https://github.com/mehakSadique/CISC3140-Homework2.git
+ + 865dd9e...fd5ea19 master -> master (forced update)
+Mehaks-Air:CISC3140-Homework2 mehaksadique$ 
